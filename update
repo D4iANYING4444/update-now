@@ -1,14 +1,5 @@
 【version】4.0【version】
 
-【notes】Auto Check Update Maintenance!【notes】
+【notes】\nAuto Check Update Maintenance!【notes】
 
-【links】import "android.content.Context"
-import "android.net.Uri"
-
-downloadManager=activity.getSystemService(Context.DOWNLOAD_SERVICE);
-url=Uri.parse("https://www.mediafire.com/file/6rhal6atnz0hzqa/D4_Mods_0.3.apk");
-request=DownloadManager.Request(url);
-request.setAllowedNetworkTypes(DownloadManager.Request.NETWORK_MOBILE|DownloadManager.Request.NETWORK_WIFI);
-request.setDestinationInExternalPublicDir("storage/emulated/0/Download","D4 Mods_0.4.apk");
-request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
-downloadManager.enqueue(request);【links】
+【links】https://www.mediafire.com/file/6rhal6atnz0hzqa/D4_Mods_0.3.apk/file【links】
