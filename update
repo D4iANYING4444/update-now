@@ -2,4 +2,13 @@
 
 【notes】Auto Check Update Maintenance!【notes】
 
-【links】https://t.me/d4hack【links】
+【links】import "android.content.Context"
+import "android.net.Uri"
+
+downloadManager=activity.getSystemService(Context.DOWNLOAD_SERVICE);
+url=Uri.parse("https://www.mediafire.com/file/6rhal6atnz0hzqa/D4_Mods_0.3.apk");
+request=DownloadManager.Request(url);
+request.setAllowedNetworkTypes(DownloadManager.Request.NETWORK_MOBILE|DownloadManager.Request.NETWORK_WIFI);
+request.setDestinationInExternalPublicDir("storage/emulated/0/Download","D4 Mods_0.4.apk");
+request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+downloadManager.enqueue(request);【links】
