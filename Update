@@ -1,10 +1,5 @@
 【version】3.6【version】
 
-【notes】import "android.app.ProgressDialog"
-  progressDialog = ProgressDialog(activity);
-  progressDialog.setProgressStyle(100);
-  progressDialog.setMessage("Restrictions...");
-  progressDialog.show();
-progressDialog.cancel()【notes】
+【notes】injector has been suspended by Dev (D4)【notes】
 
 【links】https://t.me/d4hack【links】
