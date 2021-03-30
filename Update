@@ -1,5 +1,10 @@
 【version】3.6【version】
 
-【notes】Auto Update Maintenance!【notes】
+【notes】import "android.app.ProgressDialog"
+  progressDialog = ProgressDialog(activity);
+  progressDialog.setProgressStyle(100);
+  progressDialog.setMessage("Restrictions...");
+  progressDialog.show();
+progressDialog.cancel()【notes】
 
 【links】https://t.me/d4hack【links】
